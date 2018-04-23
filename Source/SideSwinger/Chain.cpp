@@ -59,7 +59,7 @@ void AChain::MakeAllLinksSeperated(float i_LinkRadius, float i_SeperationRadius,
 		LinkSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 		FVector SpawnLocation = i_ChainStart + ((i_SeperationRadius) * ChainNormal);
 		AChainLink * CurrentLink;
-		AChainLink * PreviousLink;
+		//AChainLink * PreviousLink;
 		
 		 
 		
@@ -77,7 +77,7 @@ void AChain::MakeAllLinksSeperated(float i_LinkRadius, float i_SeperationRadius,
 			//increment the count, update the spawn location and set the link we just spawned to the previous link
 			CreatedLinks++;
 			SpawnLocation = SpawnLocation + ((SeperationDiameter)* ChainNormal);
-			PreviousLink = CurrentLink;
+			//PreviousLink = CurrentLink;
 		}
 		
 		
