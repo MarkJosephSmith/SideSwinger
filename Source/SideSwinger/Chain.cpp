@@ -92,7 +92,7 @@ void AChain::MakeAllLinksSeperated(float i_LinkRadius, float i_SeperationRadius,
 			//attach to the ************************************************************** SHOULD BE ATTACHING TO THE NEXT LINK!!!!  (maybe, who the fuck knows) previous link
 			//hand has joint, anchored to hand, linked first ball.  Each ball links the previous ball's joint to itself.  Final one links to the hit location outside the loop.
 
-			
+			 
 			//PreviousLink->m_pPhysicsJoint->AddWorldOffset(ChainNormal * i_SeperationRadius);
 			//PreviousLink->m_pPhysicsJoint->ConstraintActor1 = PreviousLink;
 			//PreviousLink->m_pPhysicsJoint->ConstraintActor2 = CurrentLink;
